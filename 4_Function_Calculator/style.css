@@ -1,0 +1,30 @@
+#calculator {
+    background-color: #222222;
+    padding: 16px;
+    display: grid;
+    width: 25%;
+    grid-template-columns: 25% 25% 25% 25%;
+    color: white
+}
+
+#calculator button {
+    background-color: #666666;
+    color: white;
+    font-size: 1.25em;
+}
+
+#calculator button.operator {
+    background-color: #ff8c00;
+}
+
+#display {
+    text-align: end;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    font-size: 1.5em;
+}
+
+#equals {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
