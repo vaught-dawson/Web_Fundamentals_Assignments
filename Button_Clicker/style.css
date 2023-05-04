@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  padding: 0 15%;
+}
+
+.button-theme {
+  border: 3px solid black;
+  box-shadow: 2px 2px black;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.header {
+  height: 75px;
+  width: 100%;
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #cccccc;
+}
+
+.header h1 {
+  margin-left: 24px;
+  font-size: 2.5em;
+  font-weight: 600;
+}
+
+.header input {
+  width: 40%;
+  padding: 4px;
+  font-size: 1.15em;
+  border: 3px solid black;
+}
+
+.header button.login {
+  margin-right: 24px;
+  padding: 4px 8px;
+  background-color: #2b78e4;
+  color: white;
+}
+
+.main {
+  display: flex;
+}
+
+.main .content {
+  width: 65%;
+  margin-right: 24px;
+}
+
+.content .definition-card {
+  padding: 16px 0 16px 16px;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border: 3px solid black;
+}
+
+.definition-card .definition-side {
+  text-align: center;
+}
+
+.definition-side .definition-word {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.definition-side .definition-adjective {
+  font-weight: 600;
+  font-style: italic;
+}
+
+.definition-side .definition-plural {
+  margin: 4px 0px;
+  white-space: nowrap;
+}
+
+.definition-side .definition-plural span {
+  font-style: italic;
+}
+
+.definition-side button.definition-like {
+  margin-top: 16px;
+  width: 100%;
+  padding: 4px 0;
+  white-space: nowrap;
+  font-size: 1em;
+  background-color: #ffd966;
+}
+
+.definition-card .definition-main {
+  padding: 32px;
+  overflow: hidden;
+}
+
+.definition-card .definition-main .main .sidebar {
+  width: 35%;
+  border: 3px solid black;
+}
+
+.main .sidebar {
+  width: 35%;
+  height: fit-content;
+  padding: 16px;
+  border: 3px solid black;
+}
+
+.sidebar h1 {
+  font-weight: 600;
+  font-size: 1.6em;
+}
+
+.sidebar h1 span {
+  font-weight: 700;
+}
+
+.sidebar .add-definition {
+  padding: 4px 0;
+  width: 100%;
+  margin-top: 16px;
+  white-space: nowrap;
+  font-size: 0.75em;
+  background-color: #93c47d;
+  overflow: hidden;
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="nav-links">
+        <h3>Profile</h3>
+        <a href="#">Home</a>
+        <a href="#" class="active">My Profile</a>
+        <a href="#">Find Connections</a>
+      </div>
+      <button class="sign-out">Sign Out</button>
+    </div>
+    <div class="main">
+      <div class="content">
+        <div class="profile-card">
+          <div class="profile-banner"></div>
+          <div class="profile-content">
+            <div class="profile-pic">
+              <img
+                class="profile-pic"
+                src="/assets/jane-m.jpg"
+                alt="Profile Pic"
+              />
+            </div>
+            <h3 class="name">Jane Doe</h3>
+            <img class="map-icon" src="/assets/map-marker.png" alt="Map Icon" />
+            <span>Seattle</span>
+            <p>
+              Developer | Engineer | Problem Solver Master of the shadows and
+              the Internet!
+            </p>
+            <a href="#" class="settings">
+              <img src="/assets/gear.png" alt="Settings Icon" />
+              <span>edit profile</span>
+            </a>
+          </div>
+        </div>
+        <div class="education">
+          <div class="header-banner">
+            <h3 class="education-header">Education</h3>
+          </div>
+          <div class="education-content">
+            <h2>Coding Dojo - Full Stack Bootcamp</h2>
+            <span class="education-date">Dec 2019 - Mar 2020</span>
+            <p>Triple black belt in Python, MERN, and C#...</p>
+          </div>
+        </div>
+      </div>
+      <div class="sidebar">
+        <div class="connection-requests">
+          <div class="header-banner">
+            <div class="requests-notifications">
+              <span>2</span>
+            </div>
+            <h3 class="connection-requests-header">Connection Requests</h3>
+          </div>
+          <div class="connection-requests-content">
+            <div class="request-row">
+              <div class="user">
+                <img
+                  src="/assets/todd-s.jpg"
+                  alt="A profile picture"
+                  class="profile-small"
+                />
+                <span class="username">Todd E</span>
+              </div>
+              <div class="options">
+                <img
+                  src="/assets/accept-circle.png"
+                  alt="Accept Icon"
+                  class="accept"
+                />
+                <img
+                  src="/assets/close-circle.png"
+                  alt="Deny Icon"
+                  class="deny"
+                />
+              </div>
+            </div>
+            <div class="request-row">
+              <div class="user">
+                <img
+                  src="/assets/phil-s.jpg"
+                  alt="A profile picture"
+                  class="profile-small"
+                />
+                <span class="username">Phil K</span>
+              </div>
+              <div class="options">
+                <img
+                  src="/assets/accept-circle.png"
+                  alt="Accept Icon"
+                  class="accept"
+                />
+                <img
+                  src="/assets/close-circle.png"
+                  alt="Deny Icon"
+                  class="deny"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="connections">
+          <div class="header-banner">
+            <div class="connection-notifications">
+              <span>500+</span>
+            </div>
+            <h2 class="connections-header">Your Connections</h2>
+          </div>
+          <div class="connections-content">
+            <div class="connection-row">
+              <img
+                src="/assets/adrien-s.jpg"
+                alt="A profile picture"
+                class="profile-small"
+              />
+              <span class="username">Adrien D</span>
+            </div>
+            <div class="connection-row">
+              <img
+                src="/assets/anne-s.jpg"
+                alt="A profile picture"
+                class="profile-small"
+              />
+              <span class="username">Anne J</span>
+            </div>
+            <div class="connection-row">
+              <img
+                src="/assets/alayne-s.jpg"
+                alt="A profile picture"
+                class="profile-small"
+              />
+              <span class="username">Alayne Y</span>
+            </div>
+            <div class="connection-row">
+              <img
+                src="/assets/arry-s.jpg"
+                alt="A profile picture"
+                class="profile-small"
+              />
+              <span class="username">Arry Y</span>
+            </div>
+          </div>
+          <div class="connections-footer">
+            <a href="#">View More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

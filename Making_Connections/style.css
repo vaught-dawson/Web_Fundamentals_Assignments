@@ -1,0 +1,314 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.navbar {
+  height: 75px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: 0 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+.sidebar {
+  width: 30%;
+  height: 800px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  align-items: center;
+  margin-right: 24px;
+  color: white;
+}
+
+.nav-links h3 {
+  margin-left: 0%;
+  font-size: 2em;
+}
+
+.nav-links > a {
+  font-size: 1em;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-links a:last-of-type {
+  margin-right: 16px;
+}
+
+.nav-links .active {
+  font-weight: 600;
+}
+
+.navbar button.sign-out {
+  width: 10%;
+  height: 36px;
+  margin: 16px 0 16px 20%;
+  background-color: #17a2b8;
+  color: white;
+  font-size: 1.15em;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 75px;
+  justify-content: center;
+  padding-top: 24px;
+}
+
+.content {
+  width: 50%;
+  margin-right: 24px;
+}
+
+.header-banner {
+  background-color: #333333;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  color: white;
+}
+
+.profile-banner {
+  background-color: #17a2b8;
+  width: 100%;
+  height: 100px;
+}
+
+.profile-content {
+  padding: 0 0 24px 24px;
+  margin-bottom: 32px;
+  background-color: white;
+  border: 3px solid #cacaca;
+  border-top: none;
+}
+
+.profile-pic img {
+  height: 100px;
+  z-index: 1;
+  border-radius: 50%;
+}
+
+div.profile-pic {
+  height: 100px;
+  width: 100px;
+  padding: 4px;
+  background-color: white;
+  z-index: 2;
+  position: relative;
+  top: -50px;
+  border-radius: 50%;
+  border: 3px solid #cacaca;
+}
+
+img.map-icon {
+  height: 20px;
+  margin-right: 8px;
+}
+
+a.settings img {
+  height: 20px;
+}
+
+.profile-name {
+  margin-top: -50px;
+  font-weight: 300;
+  font-size: 2em;
+  margin-bottom: 8px;
+}
+
+.profile-content span {
+  font-size: 1.2em;
+  vertical-align: super;
+}
+
+.profile-content p {
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+
+.profile-content p:last-of-type {
+  margin-top: 0px;
+  margin-bottom: 16px;
+}
+
+a.settings {
+  text-decoration: none;
+  margin-bottom: 16px;
+}
+
+a.settings span {
+  font-size: 1em;
+  text-decoration: underline;
+  margin-left: 4px;
+}
+
+.education-card {
+  height: 200px;
+  background-color: #cacaca;
+}
+
+.education-header {
+  align-self: center;
+  margin-left: 24px;
+  font-size: 1.25em;
+}
+
+.education-content {
+  margin: 0 3px 0px 4px;
+  padding-left: 21px;
+  line-height: 2em;
+  background-color: white;
+  height: 146px;
+}
+
+.education-content h2 {
+  padding-top: 8px;
+  font-weight: 600;
+}
+
+.education-content span {
+  color: #9c9c9c;
+  font-size: 1.1em;
+}
+
+.education-content p {
+  font-weight: 500;
+  font-size: 1.2em;
+  padding-bottom: 8px;
+}
+
+.connection-requests-content {
+  height: 145px;
+  background-color: white;
+  margin: 0 3px 0 3px;
+}
+
+.connection-requests-header {
+  align-self: center;
+  margin-left: 8px;
+  font-size: 1.25em;
+}
+
+.connection-requests {
+  margin-bottom: 32px;
+  background-color: #cacaca;
+  height: 198px;
+}
+
+.profile-small {
+  height: 36px;
+  border-radius: 50%;
+}
+
+span.username {
+  font-size: 1.2em;
+  margin-left: 16px;
+  font-weight: 600;
+}
+
+.accept,
+.deny {
+  max-height: 36px;
+  margin-right: 4px;
+}
+
+.request-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 16px 8px 8px 8px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+}
+
+.options {
+  margin-right: 16px;
+}
+
+.connection-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 16px;
+}
+
+.connection-row:first-of-type {
+  margin: 0 16px 16px 16px;
+  padding-top: 16px;
+}
+
+.connections-header {
+  align-self: center;
+  margin-left: 16px;
+  font-size: 1.25em;
+  display: inline;
+}
+
+.connections-content {
+  background-color: white;
+  height: 220px;
+  margin: 0 3px 0 3px;
+}
+
+.connections {
+  background-color: #cacaca;
+  height: 313px;
+}
+
+.connections-footer {
+  margin: 3px 3px 0 3px;
+  padding: 8px 16px;
+  background-color: white;
+}
+
+.connection-notifications,
+.requests-notifications {
+  height: 24px;
+  width: 36px;
+  background-color: #cacaca;
+  display: inline;
+  border-radius: 50%;
+  align-self: center;
+  margin-left: 24px;
+  justify-self: center;
+}
+
+.connection-notifications span,
+.requests-notifications span {
+  text-align: center;
+  color: black;
+}
+
+.connection-notifications span {
+  margin-left: 4px;
+}
+
+.requests-notifications span {
+  margin-left: 6px;
+}
+
+.requests-notifications {
+  width: 24px;
+}

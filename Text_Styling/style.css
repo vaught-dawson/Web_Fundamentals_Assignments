@@ -1,0 +1,41 @@
+* {
+  font-family: "Comic Sans MS", "cursive";
+  margin: 12px 8px;
+}
+
+.logo {
+  display: block;
+  background-color: black;
+  color: white;
+  font-size: 4em;
+  font-weight: bold;
+  padding: 0px 24px 8px 24px;
+}
+
+.blue {
+  color: #00fbfb;
+  padding: 0px;
+  margin: 0px;
+}
+
+.header {
+  display: block;
+  background-color: #663399;
+  color: white;
+  text-align: center;
+  font-style: italic;
+  font-size: 2em;
+  padding: 8px 0px;
+}
+
+.contact {
+  background-color: #9fc5f8;
+  text-align: right;
+  padding: 8px 12px;
+}
+
+.contact a {
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+}

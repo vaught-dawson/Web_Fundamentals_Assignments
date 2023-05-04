@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+body {
+  padding: 0 10%;
+}
+
+.header {
+  width: 100%;
+  font-size: 1.1em;
+  background-color: black;
+  color: white;
+}
+
+.header h2,
+body h1 {
+  padding: 8px 16px;
+  font-weight: 500;
+}
+
+body h1 {
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main .sidebar {
+  margin-right: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+  border: 3px solid black;
+}
+
+.sidebar .profile-pic {
+  height: 75px;
+  margin-top: 16px;
+}
+
+.sidebar a {
+  margin: 24px 16px;
+  white-space: nowrap;
+}
+
+.sidebar h3 {
+  padding: 0 4px;
+  font-size: 1.4em;
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+
+.card {
+  margin-bottom: 8px;
+  padding: 24px;
+  border: 3px solid black;
+}
+
+.card .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.card .top h2 {
+  font-weight: 500;
+}
+
+.card .like-container button.like {
+  padding: 4px 12px;
+  margin-left: 24px;
+  font-size: 0.9em;
+  font-weight: 600;
+  background-color: #ffd966;
+  border: 3px solid black;
+  box-shadow: 2px 2px black;
+}
+
+.card p {
+  font-size: 1.15em;
+  padding-right: 24px;
+}

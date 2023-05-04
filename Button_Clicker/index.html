@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <h1>Dojonary</h1>
+      <input type="text" name="Search" id="search_box" placeholder="Search" />
+      <button class="button-theme login" onclick="login(this)">Login</button>
+    </div>
+    <div class="main">
+      <div class="content">
+        <div class="definition-card">
+          <div class="definition-side">
+            <h2 class="definition-word">ninja</h2>
+            <h3 class="definition-adjective">noun</h3>
+            <p class="definition-plural">Plural: <span>ninjas</span></p>
+            <button class="button-theme definition-like" onclick="like(this)">
+              13 likes
+            </button>
+          </div>
+          <div class="definition-main">
+            <p>
+              A practitioner skilled in the <a href="#">Japanese</a> are of
+              <a href="#">ninjutsu</a>
+            </p>
+          </div>
+        </div>
+        <div class="definition-card">
+          <div class="definition-side">
+            <h2 class="definition-word">ninja</h2>
+            <h3 class="definition-adjective">noun</h3>
+            <p class="definition-plural">Plural: <span>ninjas</span></p>
+            <button class="button-theme definition-like" onclick="like(this)">
+              37 likes
+            </button>
+          </div>
+          <div class="definition-main">
+            <p>
+              A <a href="#">programmer</a> who break down problems with
+              <a href="#">zen</a>-like focus
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="sidebar">
+        <h1>
+          Dojonary is defined by
+          <span>YOU</span>
+          <button class="button-theme add-definition" onclick="hide(this)">
+            Add Definition
+          </button>
+        </h1>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

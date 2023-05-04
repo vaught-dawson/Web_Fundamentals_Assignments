@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <form>
+      <p>
+        First Name:*
+        <input type="text" id="firstName" />
+      </p>
+      <p>
+        Last name:*
+        <input type="text" id="lastName" />
+      </p>
+      <p>
+        Email Address:*
+        <input type="text" id="email" />
+      </p>
+      <p>
+        Password:*
+        <input type="password" id="password" />
+      </p>
+      <p>
+        Confirm Password:*
+        <input type="password" id="confirmPassword" />
+      </p>
+      <p>
+        Birthday:
+        <input type="date" id="birthday" />
+      </p>
+      <p>Gender Identity:</p>
+      <p>
+        <input type="radio" id="male" /> Male
+        <input type="radio" id="female" /> Female
+        <input type="radio" id="nonbinary" /> Non-binary
+        <input type="radio" id="noAnswer" /> I prefer not to answer
+      </p>
+      <p>
+        A short description about myself:
+        <br />
+        <textarea cols="32"></textarea>
+      </p>
+      <p>
+        Favorite Language:
+        <select name="favLanguage" id="favLanguage">
+          <option>JavaScript</option>
+          <option>Java</option>
+          <option>C#</option>
+          <option>Python</option>
+        </select>
+      </p>
+      <p>
+        <input
+          checked
+          type="checkbox"
+          name="acceptEmailUpdates"
+          id="acceptEmailUpdates"
+        />
+        Yes, I would like to receive periodic email updates
+      </p>
+      <input type="submit" value="Create Account" />
+      <p>* Indicates a required field</p>
+    </form>
+  </body>
+</html>
